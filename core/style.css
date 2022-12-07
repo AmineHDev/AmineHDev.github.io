@@ -16,7 +16,7 @@ html, body {
 }
 
 body {
-  font-family: 'Bebas Neue';
+  font-family: 'Roboto';
   text-transform: uppercase;
   background-color: #2b2a31;
   display: grid; /* Fixer le footer */
