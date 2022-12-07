@@ -1,9 +1,9 @@
 @charset "UTF-8";
-@font-face {
+/* @font-face {
   font-family: "LM";
-  /* src: url(/assets/fonts/lemon_milk/LEMONMILK-Light.otf);  */
-  src: url(../assets/fonts/lemon_milk/LEMONMILK-Light.otf);
-}
+  src: url(/assets/fonts/lemon_milk/LEMONMILK-Light.otf);  
+  src: url(../assets/fonts/lemon_milk/LEMONMILK-Light.otf); 
+} */
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +16,8 @@ html, body {
 }
 
 body {
-  font-family: "LM", sans-serif;
+  font-family: 'Bebas Neue';
+  text-transform: uppercase;
   background-color: #2b2a31;
   display: grid; /* Fixer le footer */
   grid-template-rows: auto 1fr auto;
@@ -176,13 +177,13 @@ form {
 }
 
 .REGISTER {
-  background: url(/ressources/mail.png);
+  background: url(/assets/mail.png);
   background-size: contain;
   background-position: center;
 }
 
 .PAYMENT {
-  background: url(/ressources/terminal.png);
+  background: url(/assets/terminal.png);
   background-size: contain;
   background-position: center;
 }
